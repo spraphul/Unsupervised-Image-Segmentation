@@ -37,7 +37,7 @@ the convolutional filters for better separation of clusters. Backpropagation of
 softmax loss is used to update the network.
 The model architecture is given below:
 
-![png](output_35_0.png)
+![png](1.png)
 
 ##  Domain Adaptation for Segmentation
 
@@ -55,7 +55,7 @@ target domain to train our separate model.
 
 The model architecture is as follows:
 
-![png](output_35_0.png) 
+![png](2.png) 
 
 On the one hand the loss for the segmentation is minimized while simultane-
 ously the loss for the discriminator network is maximised so that it becomes
@@ -66,7 +66,7 @@ tation for the IITK Dataset.
 
 #  Results Obtained By Both Methods Respectively:
 
-![png](output_35_0.png)
+![png](3.png)
 
 References
 [1] Richter 2016 ECCV, author = Stephan R. Richter and Vibhav Vineet and
