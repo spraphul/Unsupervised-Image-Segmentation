@@ -37,6 +37,8 @@ the convolutional filters for better separation of clusters. Backpropagation of
 softmax loss is used to update the network.
 The model architecture is given below:
 
+![png](output_35_0.png)
+
 ##  Domain Adaptation for Segmentation
 
 In this method, knowledge transfer or domain adaptation is done to close the
@@ -52,6 +54,9 @@ we used the GTA dataset as the source domain and the IITK dataset as the
 target domain to train our separate model.
 
 The model architecture is as follows:
+
+![png](output_35_0.png) 
+
 On the one hand the loss for the segmentation is minimized while simultane-
 ously the loss for the discriminator network is maximised so that it becomes
 hard for the discriminator network to distinguish between the source domain
@@ -60,6 +65,8 @@ ferred knowledge from GTA dataset(which is labelled) to predict the segmen-
 tation for the IITK Dataset.
 
 #  Results Obtained By Both Methods Respectively:
+
+![png](output_35_0.png)
 
 References
 [1] Richter 2016 ECCV, author = Stephan R. Richter and Vibhav Vineet and
