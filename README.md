@@ -1,7 +1,7 @@
 # Unsupervised-Image-Segmentation
 
 #  Introduction
-In the given assignment, we have been given a vehicle dataset. The dataset
+We have been given a vehicle dataset. The dataset
 has been retrieved from the IIT Kanpur surveillance cameras and consists of a
 variety of vehicle classes like, cars, buses, bicycles, motorbikes and pedestrians.
 This data can be used to implement various computer vision tasks and we have
